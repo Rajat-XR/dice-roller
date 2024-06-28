@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         diceimg_container.innerHTML = "";
         user = dicenum.value;
         for (let i = 0; i < user; i++) {
-            num = Math.floor(Math.random() * (max - min) + min);
+            num = Math.floor(Math.random() * (max - min + 1) + min);
             image = document.createElement("img");
             image.src = arr[num];
             diceimg_container.appendChild(image);
