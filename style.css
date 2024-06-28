@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gochi+Hand&family=Playwrite+US+Trad:wght@100..400&family=Poppins:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(225, 188, 241);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2.5em;
+    font-family: "Poppins";
+    margin-right: 1.5em;
+    border: solid 2px;
+}
+
+#subhead_I {
+    color: rgb(250, 237, 255);
+    background-color: black;
+    border: solid 2px black;
+}
+
+#subhead_II {
+    color: black;
+    background-color: white;
+}
+
+#enter,
+#msg {
+    margin-bottom: 0.5em;
+    font-size: 25px;
+    font-family: "Balsamiq Sans";
+}
+
+#main {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin-top: 5em;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    border: none;
+    margin-right: 0.8em;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#area {
+    display: flex;
+    margin-bottom: 2em;
+
+}
+
+img {
+    width: 68px;
+}
+
+button {
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+}
+
+button:hover {
+    background-color: rgb(225, 188, 241);
+    color: rgb(0, 0, 0);
+    border: solid;
+}
